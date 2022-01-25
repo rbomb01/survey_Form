@@ -11,8 +11,179 @@
 </head>
 <body>
 <!--Your Code Goes Below this line-->
+<div class="container"/>
+    <header class="header"/>
+        <h1 id="title" class="text-center">McDonalds Job Survey</h1>
+        <p id="description" class="description text-center">
+Leo Schiappa
+</p>
+        <form id="survey-form"/>
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name"
+                       id="name" class="form-control"
+                       placeholder="Enter your name" required/>
+            </div>
+       <div class="form-group">
+           <label id = "number-label" for = "number">Number</label>
+           <input
+               type="number"
+               name = "number"
+               id ="number"
+               min = "1"
+               max = "99"
+               class = "Number-Control"
+               placeholder = "Enter your number here"
+               />
+       </div>
 
+<div class="form-group">
+    <label id="email-
+" for="email">Email</label>
+    <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+    />
+</div>
+        <div class="form-group">
+            <label id = "height-label" for = "height">Height</label>
+            <input
+                    type="number"
+                    name = "height"
+                    id = "height"
+                    class = "height-Control"
+                    placeholder = "Enter your height here"
+            />
+        </div>
+        <div class="form-group">
+            <label id = "weight-label" for = "weight">Weight</label>
+            <input
+                    type="number"
+                    name = "number"
+                    id ="weight"
+                    class = "Number-Control"
+                    placeholder = "Enter your Weight here"
+            >
+        </div>
+        <div class="form-group">
+            <label id = "speed-label" for = "speed">40 yard dash time</label>
+            <input
+                    type="number"
+                    name = "height"
+                    id = "speed"
+                    class = "height-Control"
+                    placeholder = "Enter your time here"
+            >
+        </div>
+        <div class="form-group">
+            <label id = "batting-label" for = "batting">Batting average</label>
+            <input
+                    type="number"
+                    name = "height"
+                    id = "batting"
+                    min ="0"
+                    max ="1"
+                    class = "height-Control"
+                    placeholder = "Enter your Batting Average here"
+            />
+        </div>
+        <div class="form-group">
+            <label id = "hole-label" for = "hole">Number of hole in ones</label>
+            <input
+                    type="number"
+                    name = "height"
+                    id = "hole"
+                    class = "height-Control"
+                    placeholder = "Enter your Amount of hole in ones here"
+            >
+        </div>
 
+<div class="form-group">
+    <p>How would you describe yourself as a worker?</p>
+    <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">good</option>
+        <option value="job">bad</option>
+        <option value="learner">stupid</option>
+        <option value="preferNo">hard worker</option>
+        <option value="other">eh</option>
+    </select>
+</div>
+<div class="form-group">
+    <p>Do you actually want to work here?</p>
+    <label>
+        <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+        />eh</label
+    >
+    <label>
+        <input
+                name="user-recommend"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+        />no</label
+    >
+
+    <label
+    ><input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+    />never</label
+    >
+</div>
+<div class="form-group">
+    <p>
+Are you a Homie?
+        <span class="clue">(Check all that apply)</span>
+    </p>
+
+    <label
+    ><input
+            name="prefer"
+            value="front-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+    />yes</label
+    >
+    <label>
+        <input
+                name="prefer"
+                value="back-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+        />no</label
+    >
+    <div class="form-group">
+        <p>Is this survey good</p>
+        <textarea
+                id="comments"
+                class="input-textarea"
+                name="comment"
+                placeholder="Enter your comment here..."
+        ></textarea>
+    </div>
+<div class="form-group">
+    <button type="submit" id="submit" class="submit-button">
+        Submit
+    </button>
+</div>
+        </p>
+        <figure id="img-div">
+            <img id="image" src="https://images.foxtv.com/static.fox5ny.com/www.fox5ny.com/content/uploads/2019/08/764/432/mcdonalds_1495053546175_3325533_ver1.0.png?ve=1&tl=1">
+            <figcaption id="img-caption">
+
+            </figcaption>
 <!--Your Code Goes Above this line-->
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
